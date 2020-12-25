@@ -1,0 +1,16 @@
+image: robert2411/registry-pull-through-cache:latest
+manifests:
+  - image: robert2411/registry-pull-through-cache:latest-amd64
+    platform:
+      architecture: amd64
+      os: linux
+  - image: robert2411/registry-pull-through-cache:latest-arm64v8
+    platform:
+      architecture: arm64
+      os: linux
+      variant: v8
+  - image: robert2411/registry-pull-through-cache:latest-arm32v6
+    platform:
+      architecture: arm
+      os: linux
+      variant: v6
